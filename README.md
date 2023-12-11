@@ -53,3 +53,32 @@
 As a proxy to the home prices, S&P CASE-SHILLER Index is used.
 
 Most of the data is downloaded from [https://fred.stlouisfed.org/].
+
+# Conclusion
+
+#By obersving both shapely model we can see that features like:
+* UNRATE (Unemployment Rate)
+* ERNTOCCUSQ176N (Housing Inventory Estimate Renter Occupied Housing Units in the United States)
+* urban_pop_per 
+* Construction_price_index(WPUSI012011)
+* GDP 
+* M per 100 F 
+* female
+* male
+* TTLCONS(Total_Construction_Spending_Total_Construction_in_the_United_States)
+* TTLHH(Total Household)
+* FEDFUNDS
+* MORTGAGE30US 
+
+**have positively impacting the variable CSUSHPISA** 
+# features like: 
+* A939RX0Q048SBEA(Per Capita_GDP-)
+* FEDFUNDS (Federal Funds Effective Rate)
+* No_of_Persons 
+* Producer_Price_Index_by_Commodity_Metals_and_Metal_Products_Iron_and_Steel(WPU101) 
+
+ **negatively impacting the variable CSUSHPISA and rest of the feautre have very less or no impact on CSUSHPISA.**
+
+ # IN this project we are taking R2 score as evaluation metric b'coz of Simplicity of Interpretation.
+
+ # **Though Decision tree regressor has highest R2 score but for this project we'll consider Randomforest Regressor model as final model. B'coz Randomforest is a low variance and low bias model**.
