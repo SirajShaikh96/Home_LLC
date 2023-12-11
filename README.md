@@ -25,8 +25,6 @@
 
 *    New Constructed_units--->COMPUTSA
 
-*  New_Privately-Owned_Housing_Units_Under_Construction_Total_Units
-
 *  Per Capita_GDP-------->A939RX0Q048SBEA
 
 *  Population--------->POPTHM
